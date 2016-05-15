@@ -1,0 +1,67 @@
+* {margin: 0; padding: 0;}
+li {
+  list-style: none;
+}
+span {
+  display: inline-block;
+}
+input {
+  height: 30px;
+  outline: none;
+  width: 100px;
+  text-align: center;
+  background-color: blue;
+  border: none;
+  color: #fff;
+}
+.sentForm {
+  width: 814px;
+  height: 32px;
+  margin: 50px auto;
+}
+.box {
+
+}
+.bd {
+  height: 30px;
+  float: left;
+  margin: 0 20px;
+  position: relative;
+}
+.arrow {
+  width: 30px;
+  height: 30px;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+.val {
+  width: 120px;
+  padding-left: 10px;
+  height: 30px;
+  border: 1px solid #ccc;
+  float: left;
+  text-align: left;
+  font-size: 14px;
+  line-height: 30px;
+}
+.tab {
+  width: 150px;
+  height: 100px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  border-top: none;
+  display: none;
+  position: absolute;
+  top: 32px;
+}
+.tab li {
+  width: 90%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 10px;
+}
